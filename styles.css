@@ -16,6 +16,7 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 15px;
+    padding-bottom: 50px;
 }
 
 .header ul {
@@ -59,6 +60,7 @@ body {
     border: solid gray;
     width: 400px;
     height: 250px;
+    margin-left: 50px;
 }
 
 .hero button {

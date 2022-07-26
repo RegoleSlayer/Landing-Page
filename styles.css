@@ -37,6 +37,7 @@ body {
     flex: 2 1 auto;
     background-color: #1F2937;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     color: #F9FAF8;
     padding-left: 100px;
@@ -53,8 +54,67 @@ body {
     color: #E5E7EB;    
 }
 
+.hero-right {
+    border: solid gray;
+    width: 400px;
+    height: 250px;
+}
+
+.hero button {
+    color: white;
+    background: #3882F6;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0;
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+}
+
 .information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+.information-header {
     flex: 2 1 auto;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+.images-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+    flex-wrap: nowrap;
+    max-width: 800px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.images img {
+    border: solid #3882F6;
+    border-radius: 25px;
+}
+
+.information-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: nowrap;
+    gap: 90px;
 }
 
 .quote {

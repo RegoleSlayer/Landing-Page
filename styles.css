@@ -183,4 +183,10 @@ body {
 .footer {
     flex: 0.5 1 auto;
     background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
